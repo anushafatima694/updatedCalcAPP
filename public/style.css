@@ -1,0 +1,61 @@
+h1{
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 32px;
+   margin-right: 80px;
+   color: rgb(44, 123, 149);
+    
+}
+P{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(44, 123, 149);
+   margin-left: 70px;
+}
+
+
+.calculator{
+    
+ width: 400px; 
+   margin: 50px auto; 
+
+background-color: linear-gradient(rgb(194, 191, 191),rgb(233, 231, 231));
+}
+
+.input{
+    
+     padding: 20px;
+     font-size: 50px;
+    margin: 0%;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 23px;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 1px 10px 0 rgba(0,0,0,.12), 0 4px 5px 0 rgba(0,0,0,.14);
+}
+.input:hover{
+    background-color: lightblue;
+    border: 3px solid;
+}
+ 
+.buttonParent{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btn{
+    padding: 28px;
+    margin: 2px; 
+    width: 79px;
+border: 1px solid;
+border-radius: 10px;
+font-size: 20px;
+background-color: rgb(214, 226, 230);
+box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 1px 10px 0 rgba(0,0,0,.12), 0 4px 5px 0 rgba(0,0,0,.14);
+}
+.btn:hover{
+    background-color: lightblue;
+    border: 2px solid;
+}
